@@ -43,7 +43,7 @@ namespace MagicOnionInDocker.HttpGateway
             {
                 XmlDocumentPath = xmlPath
             });
-            app.UseMagicOnionHttpGateway(magicOnion.MethodHandlers, new Channel("localhost:12345", ChannelCredentials.Insecure));
+            app.UseMagicOnionHttpGateway(magicOnion.MethodHandlers, new Channel("magiconionindocker.server", 12345, ChannelCredentials.Insecure));
         }
     }
 }

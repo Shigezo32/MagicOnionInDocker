@@ -15,7 +15,7 @@ namespace MagicOnionInDocker.Server
             var server = new global::Grpc.Core.Server
             {
                 Services = { service },
-                Ports = { new ServerPort("localhost", 12345, ServerCredentials.Insecure) }
+                Ports = { new ServerPort("0.0.0.0", 12345, ServerCredentials.Insecure) }
             };
 
             // launch gRPC Server.
