@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MagicOnion" Version="0.5.3" />
+    <PackageReference Include="MagicOnion.HttpGateway" Version="0.5.3" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MagicOnionInDocker.Server\MagicOnionInDocker.Server.csproj" />
+    <ProjectReference Include="..\MagicOnionInDocker.ServiceDefinition\MagicOnionInDocker.ServiceDefinition.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicOnionInDocker.ServiceD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicOnionInDocker.Server", "MagicOnionInDocker.Server\MagicOnionInDocker.Server.csproj", "{5AD36EA9-62ED-4501-ACED-72BBAC2D6100}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicOnionInDocker.HttpGateway", "MagicOnionInDocker.HttpGateway\MagicOnionInDocker.HttpGateway.csproj", "{A28FF46C-A611-436A-898A-D7AA7DC55FE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5AD36EA9-62ED-4501-ACED-72BBAC2D6100}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AD36EA9-62ED-4501-ACED-72BBAC2D6100}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AD36EA9-62ED-4501-ACED-72BBAC2D6100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28FF46C-A611-436A-898A-D7AA7DC55FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28FF46C-A611-436A-898A-D7AA7DC55FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28FF46C-A611-436A-898A-D7AA7DC55FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28FF46C-A611-436A-898A-D7AA7DC55FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
