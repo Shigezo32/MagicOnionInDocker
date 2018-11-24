@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  magiconionindocker.server:
+    image: ${DOCKER_REGISTRY-}magiconionindockerserver
+    build:
+      context: .
+      dockerfile: MagicOnionInDocker.Server/Dockerfile
+
+  magiconionindocker.httpgateway:
+    image: ${DOCKER_REGISTRY-}magiconionindockerhttpgateway
+    build:
+      context: .
+      dockerfile: MagicOnionInDocker.HttpGateway/Dockerfile
+
